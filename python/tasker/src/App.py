@@ -23,8 +23,8 @@ class App:
     def get_input(self):
         given_input = input()
         given_arguments = given_input.split()
-        self.current_command = given_arguments[0]
-        self.command_args = given_arguments[1:]
+        self.current_command = given_arguments[0] if given_arguments else None #I changed this 2 lines to avoid IndexError when given_input is empty.
+        self.command_args = given_arguments[1:] if len(given_arguments) > 1 else []
 
     def execute_command(self):
         if self.current_command == "done":

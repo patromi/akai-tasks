@@ -1,27 +1,44 @@
-# Currency converter
+# Conventer task
+## Description
 
-In this task your job is to develop simple software, with which user will be able to see current exchange rate of given
-currencies.
+This is a simple currency converter for recruitation to AKAI. Feel free to use it
+## Usage
 
-1. For this you'll have to use API documented here: https://exchangerate.host/#/,
-2. For each exchange rate you'll have to save it in json file to save bandwidth for future use. For example if user asks
-   how much EUR will he receive for any amount of PLN you will have to fetch this data from API and save the ratio and
-   date. When the next request involving EUR and PLN occurs you should read this data from json file instead of fetching
-   it again if day is the same as given in json file. You'll find example file in directory.
-3. The program can be used from console as follows:
-   ```python converter.py {base currency amount} {base currency} {target currency}```
-   Example:
+To run the program, you need to pass an environmental variables:
 
-```
-python converter.py 734.54 USD EUR  
+```bash
+ACCESS_KEY=your_access_key (required)
+HOST=your_host (optional) (default: http://api.exchangerate.host/convert)
+RATIO_FILE=your_ratio_file (optional) (default: ratio.json)
 ```
 
-Example output:
+Enter the following command in the terminal:
 
+```bash
+python3 converter.py <amount> <input_currency> <output_currency>
 ```
-734.54 USD = 671.7329675683179 EUR
+
+## Example
+
+```bash
+python3 converter.py 434 EUR CHF
 ```
 
-4. Only changes (and their descriptions) you need to do are located in `converter/RatioObtainer.py`
 
-Good luck
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+
+Patryk Migaj
+
+Linkedin: https://www.linkedin.com/in/patryk-migaj-892431201/
+
+Github: https://github.com/patromi
+
+
+
+
+
+

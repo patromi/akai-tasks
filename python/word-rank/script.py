@@ -22,6 +22,8 @@ sentences = [
     'Nie powinno sprawić żadnego problemu, bo Google jest dozwolony',
 ]
 
+
+
 # Example result:
 # 1. "mam" - 12
 # 2. "tak" - 5
