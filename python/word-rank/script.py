@@ -1,7 +1,13 @@
 # coding=utf-8
+from collections import Counter
+import itertools
 
-# input: array with multiple strings
-# expected output: rank of the 3 most often repeated words in given set of strings and number of times they occured, case insensitive
+
+def print_word_rank(sentences_list: list):
+    word_list = list(itertools.chain(*[x.lower().split() for x in sentences_list]))
+    for word,count in Counter(word_list).most_common(3):
+        print(f'"{word}"', '-', count)
+
 
 sentences = [
     'Taki mamy klimat',
@@ -22,12 +28,6 @@ sentences = [
     'Nie powinno sprawić żadnego problemu, bo Google jest dozwolony',
 ]
 
+print_word_rank(sentences)
 
 
-# Example result:
-# 1. "mam" - 12
-# 2. "tak" - 5
-# 3. "z" - 2
-
-
-# Good luck! You can write all the code in this file.
