@@ -3,13 +3,16 @@ Repository with task packs for recruitment 2023. Where needed there is written d
 
 
 # My links:
+
 Linkedin: https://www.linkedin.com/in/patryk-migaj-892431201/
 
 Github: https://github.com/patromi
+
 Website: https://kmksoftware.pl
 
-# Kontakt
+# Contact
 FB: https://www.facebook.com/Patryk.Migaj
+
 MAIL: patryk.migaj@kmksoftware.pl
 
 
