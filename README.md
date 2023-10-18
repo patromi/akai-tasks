@@ -1,15 +1,19 @@
-# Rekrutacja zima 2023
+# Task for recrutation to AKAI.
+Repository with task packs for recruitment 2023. Where needed there is written documentation or comments on the code.
 
-Repozytorium z paczkami zadań na rekrutację 2023. 
 
-## Zasady
+# My links:
 
-Kandydaci na członków koła mają do wyboru kilka pakietów zadań. Każdy z pakietów jest umieszczony w osobnym katalogu na tym repozytorium. Wymagamy, aby kandydat wykonał zadania z przynajmniej jednego, dowolnego pakietu. 
+Linkedin: https://www.linkedin.com/in/patryk-migaj-892431201/
 
-Zadania są ułożone tak, aby były niezwykle proste do rozwiązania. Wszystko czego wymagamy od kandydata to determinacja i za pomocą tych zadań chcemy sprawdzić, czy kandydat takową posiada. Zadania można rozwiązać w parę chwil korzystając z Google. 
+Github: https://github.com/patromi
 
-Powodzenia!
+Website: https://kmksoftware.pl
 
-## Dostarczenie rozwiązań
+# Contact
+FB: https://www.facebook.com/Patryk.Migaj
 
-Rozwiązania prosimy przesyłać poprzez wypełnienie formularza dostępnego pod adresem https://forms.gle/AnXKm6bMcAqi88gi9.
+MAIL: patryk.migaj@kmksoftware.pl
+
+
+
