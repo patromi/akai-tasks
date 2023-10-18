@@ -3,6 +3,11 @@
 
 This is a simple currency converter for recruitation to AKAI. Feel free to use it
 ## Usage
+Install dependencies:
+
+```bash
+pip3 install -r requirements.txt
+```
 
 To run the program, you need to pass an environmental variables:
 

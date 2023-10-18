@@ -24,6 +24,18 @@ done 1
 remove 2
 load
 ```
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Author
+
+Patryk Migaj
+
+Linkedin: https://www.linkedin.com/in/patryk-migaj-892431201/
+
+Github: https://github.com/patromi
+
 
 
 
