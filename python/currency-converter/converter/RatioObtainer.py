@@ -47,9 +47,9 @@ class RatioObtainer:
         response = requests.get(self.host,
                                 params={'access_key': self.access_key, 'from': self.base, 'to': self.target,
                                         'amount': 1})
-        if response.status_code != 200:
-            raise Exception('Something went wrong with fetching ratio', response.text)
         parsed_data = json.loads(response.text)
+        if response.status_code != 200 or parsed_data.get('error'):
+            raise Exception('Something went wrong with fetching ratio', response.text)
         self._save_ratio(parsed_data['result'])
 
     def _save_ratio(self, ratio: float):
